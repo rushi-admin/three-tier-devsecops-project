@@ -30,8 +30,8 @@ pipeline {
                             $SCANNER_HOME/bin/sonar-scanner \
                             -Dsonar.projectKey=frontend \
                             -Dsonar.sources=. \
-                            -Dsonar.host.url=http://44.244.210.204:9000 \
-                            -Dsonar.login=sqp_28cec81454b231cb6e7548987c134fe9213a0e93
+                            -Dsonar.host.url=http://54.234.247.224:9000 \
+                            -Dsonar.login=sqp_543c6b1a5b17cedbc775372b67d33753690d2cd0
                         '''
                     }
                 }

@@ -2,7 +2,7 @@
 
 variable "region" {
   description = "The AWS region to create resources in."
-  default     = "us-west-2"
+  default     = "us-east-1"
 }
 
 # Networking Configuration
@@ -43,7 +43,7 @@ variable "instance_name" {
 
 variable "instance_type" {
   description = "Type of EC2 instance"
-  default     = "t2.2xlarge"
+  default     = "t2.large"
 }
 
 
@@ -51,7 +51,7 @@ variable "instance_type" {
 
 variable "key_name" {
   description = "The name of the SSH key pair to access the instance."
-  default     = "devsecops-project"
+  default     = "jenkins"
 }
 
 # IAM Role
